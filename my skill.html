@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel=”icon” href=””>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <img src="spiderman.jpg" alt="" />
+     <h3> BMI Calculator is a tool to measure your weight.</h3>
+    </div>
+    <div class="container">
+      <h1>BMI Calculator</h1>
+      <div class="input-container">
+        <label for="height">Height:</label>
+        <input type="number" id="height" placeholder="Height (cm)" />
+      </div>
+      <div class="input-container">
+        <label for="weight">Weight:</label>
+        <input type="number" id="weight" placeholder="Weight (kg)" />
+      </div>
+      <button onclick="calculateBMI()">Calculate</button>
+      <div id="result"></div>
+    </div>
+
+    <h4>Created By Essal</h4>
+
+    <script src="script.js"></script>
+  </body>
+</html>
